@@ -1,0 +1,27 @@
+<!-- Задача 4.Минимум. Напишите функцию min, принимающую два аргумента, и возвращающую
+минимальный из них. -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function min(x, y) {
+        if (x < y) {
+          return x;
+        } else {
+          return y;
+        }
+      }
+      let a = 0;
+      let b = -10;
+      let c = 10;
+
+      alert(min(a, b));
+      alert(min(a, c));
+    </script>
+  </body>
+</html>
